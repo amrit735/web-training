@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hamburger{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hamburger >div{
+    width: 30px;
+    height: 3px;
+
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    width: 100px;
+    background-color: aquamarine;
+
+
+}
+
+nav-links a{
+
+}
+

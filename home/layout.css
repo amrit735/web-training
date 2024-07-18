@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styles */
+header {
+    background-color: #232f3e;
+    color: white;
+    padding: 1rem;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#hamburger{
+    visibility: visible;
+    display: flex;
+    width: 25px;
+    
+    flex-direction: column;
+    align-items: center;
+    height: 65%;
+    background-color: #f08804;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+}
+
+
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li h2#logo {
+    margin: 0;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li input[type="text"] {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+header nav ul li button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9900;
+    color: white;
+    cursor: pointer;
+}
+
+/* Main Content Styles */
+main {
+    display: flex;
+}
+
+aside#sidebar {
+    width: 250px;
+    background-color: #f3f3f3;
+    padding: 1rem;
+    height: calc(100vh - 8rem); /* Adjust based on header and footer height */
+    overflow-y: auto;
+}
+
+aside#sidebar h3 {
+    margin-top: 0;
+}
+
+aside#sidebar hr {
+    border: 1px solid #ddd;
+}
+
+aside#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside#sidebar ul li {
+    margin: 0.5rem 0;
+}
+
+aside#sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.container {
+    flex-grow: 1;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.cards {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: calc(33% - 1rem); /* Adjust based on gap */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cards .image img {
+    width: 100%;
+    height: auto;
+}
+
+.cards .brief {
+    padding: 1rem;
+    text-align: center;
+}
+
+.cards .brief h1 {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+}
+
+.cards .brief p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.cards .brief button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9900;
+    color: white;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}

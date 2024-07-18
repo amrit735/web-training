@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+.cards{
+    width: 20%;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 60px;
+}
+
+.image img{
+
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    
+}
+
+.des{
+    text-align: center;
+}
+
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+   background-color: brown;
+    border: ipx solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: red;
+    /*transition: -5s;*/
+}
